@@ -1,0 +1,212 @@
+@media (max-width: 1000px) {
+   main {
+      width: 90vw;
+   }
+
+   .header-content {
+      width: 90%;
+   }
+
+   nav {
+      width: 50%;
+   }
+
+
+   /*** contact ***/
+
+   form {
+      padding: 20px 10%;
+   }
+
+   .contact p {
+      margin: 0 25px 0 0;
+      max-width: 80%;
+   }
+
+
+   /*** about ***/
+
+   .about-grid {
+      grid-gap: 0;
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas:
+         'img heart'
+         'text text'
+   }
+
+   .about-creator-img {
+      max-width: 100%;
+      grid-area: img;
+   }
+
+   .about-heart {
+      grid-area: heart;
+      width: 30px;
+      max-width: none;
+   }
+
+   .about-text {
+      grid-area: text;
+   }
+
+
+
+
+   /*** blog-list ***/
+
+   .list-grid .date,
+   .list-grid .text {
+      display: none;
+   }
+
+   .list-grid {
+      justify-content: center;
+   }
+
+   .list-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+      grid-template-areas:
+         'list-heading list-heading '
+         'list-img list-img'
+         'list-button list-button'
+      ;
+      justify-content: center;
+   }
+
+   .list-grid h2 {
+      grid-area: list-heading;
+      margin-top: 0;
+   }
+
+   .list-grid .button {
+      grid-area: list-button;
+      max-width: none;
+      width: 200px;
+      background: white;
+      position: relative;
+      top: -40px;
+      text-align: center;
+   }
+
+   .list-img-container {
+      grid-area: list-img;
+   }
+
+   .list-grid figure {
+      height: 250px;
+      object-fit: cover;
+      margin: 0;
+      max-width: 600px;
+   }
+
+   .list-grid img {
+      height: 250px;
+      object-fit: cover;
+   }
+
+   .list-container,
+   .list-grid a,
+   .list-more-posts-container {
+      display: grid;
+      justify-content: center;
+   }
+
+   .list-more-posts-container {
+      display: none;
+   }
+
+
+   /*** spec-post ***/
+
+   .spec-content p {
+      margin: 2em;
+   }
+
+   .sign-off {
+      margin: 2em;
+   }
+
+   .spec-content figure {
+      max-width: 100%;
+      float: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+   }
+
+   .spec-content figure img {
+      max-width: auto;
+      max-height: 400px;
+      object-fit: cover;
+   }
+
+ /*   .modal figure img {
+      max-width: 800px;
+   } */
+
+   .modal figure {
+      margin: 0;
+   }
+
+
+
+
+
+   /*** index ***/
+
+   .camille {
+      width: 110%;
+      position: relative;
+      left: -5%;
+      margin-bottom: 150px;
+   }
+
+   .camille-img {
+      width: 100%;
+   }
+
+   .camille p {
+      font-family: 'Cutive Mono', monospace;
+      font-weight: 900;
+      font-size: 2em;
+
+      max-width: 90%;
+
+      margin: auto;
+      position: relative;
+
+      bottom: 150px;
+
+      background-color: #ffffff92;
+   }
+
+   .philosophy {
+      background-color: #c5d8c8;
+      width: 100%;
+      position: relative;
+      left: 0px;
+      padding: 0;
+      margin: 0;
+      display: block;
+   }
+
+   .philosophy-img {
+      width: 80%;
+      position: relative;
+      max-height: 500px;
+      object-fit: cover;
+   }
+
+}
+
+
+@media (max-width: 599px) {
+   .camille p {
+      max-width: 80%;
+      border: solid #000 1px;
+      margin: auto;
+      position: relative;
+   }
+}
