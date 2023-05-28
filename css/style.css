@@ -51,11 +51,13 @@ a {
 header {
     background-color: #716045;
     position: sticky;
-    padding-top: 7px;
+/*     top: 0px; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ */    padding-top: 7px;
     box-shadow: 0px 3px 5px #3d3425;
     font-family: 'Cutive Mono', monospace;
     z-index: 5;
 }
+
 
 .header-content {
     margin: auto;
@@ -73,6 +75,7 @@ nav {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 nav a {
@@ -82,6 +85,7 @@ nav a {
     font-size: 1.4em;
 }
 
+/**** make the menu jump at 1000 and below ****/
 .current {
     text-decoration: underline;
 }
@@ -116,29 +120,32 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
     margin-top: 10vh;
+
 }
 
-
-
 /*** INDEX ***/
+
+
+
 
 .top-img {
     width: 100%;
     max-height: 25vh;
     object-fit: cover;
-    filter: brightness(70%);
+    filter:brightness(70%);
 
 }
-
-.top-logo {
-    position: absolute;
-    top: 80px;
-    max-width: 50%;
-    margin-right: 50%;
-    margin-left: 8%;
-    z-index: 3;
+.top-logo{
+        position: absolute;
+        top: 80px;
+        max-width: 50%;
+        margin-right: 50%;
+        margin-left: 8%;
+        z-index: 3;
 }
+
 
 .welcome {
     display: flex;
@@ -239,9 +246,11 @@ footer {
 }
 
 
-
-
 /***** BLOG LIST *****/
+
+
+
+
 
 .list-grid {
     display: grid;
@@ -305,7 +314,7 @@ footer {
 }
 
 .list-more-posts-container {
-    display: none;
+    display: none; 
 }
 
 
@@ -378,6 +387,7 @@ footer {
     background-color: #000000cc;
 }
 
+
 .modal img {
     margin: auto;
     display: block;
@@ -385,7 +395,15 @@ footer {
     max-height: 70vh;
     max-width: 90%;
     height: auto;
-}
+  }
+/* .modal img {
+    margin: auto;
+    display: block;
+    width: auto;
+    max-height: 70vh;
+    max-width: 800px;
+} */
+
 
 .modal p {
     display: none;
