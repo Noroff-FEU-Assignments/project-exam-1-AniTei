@@ -1,128 +1,59 @@
-## Project Exam 1
+Project exam 1: a blog, «The Food Place»
 
-## Goal
+The purpose of this project was to answer the assignment given in the course Project Exam 1, at the end of the first year of my Front-End studies at Noroff, spring 2023.
+The brief said to make a blog, with any theme. I chose a food and lifestyle theme. The use of the website is thought to be for the author/creator to reach out to/keep in contact with her audience, as well as have a single place to keep her digital content across platforms. 
 
-To put into practice the skills learned over your first year of studies.
-
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
-
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
-
-### Blog Page
-
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
-
-### Blog Specific Page
-
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
-
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
-
-### Contact page
-
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
-
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
-
-### WordPress
-
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
-
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
-
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
-
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
-
-## Level 1 Process
-
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
-
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
-
-
-
-
-___________
-
-Your project title
-
-
-A simple overview of the use/purpose of the project.
 
 Description
 
-Add a more detailed description of what your project entails and set out to do.
+The project is a blog, mostly revolving around a food topic, but also a more general lifestyle theme. Its main purpose is to provide content from the content creator and to her audience, as well as a point of connection between them.
 
-You can add some bullet points if you'd like to:
+The site is made up of 5 pages:
+-A front page
+-A contact page
+-An about page
+-A page listing the blog posts
+-A page specific to whatever blog post the user selects
 
-List item 1
-List item 2
-List item 3
+The website is built to be responsive, and look good and thereby be user-friendly on different devices.
+
+The website has a light and earthy design. The olive wood of the header, and the sage of different elements play into the «earthy, slow living» of the brand. White backgrounds and black fonts, makes for a site that is comfortable to read, as the main content is text to be read. 
+
+The blog also utilizes features like a carousel, and modal images, (this is also according to the assignment), this makes the website user friendly in terms of making blog posts and its content more available.
+
+
 Built With
 
-You can list a the tech stack that you've used over here
+The site is built using HTML, CSS and JavaScript. It gets its blog post content from a Wordpress API. The content in the Wordpress API is put there by using Local.
+The content of the blog posts are original titles that go with the chosen theme, the text is lorem ipsum, and the images are all from Unsplash. 
+I worked in vsCode when building the project, and used GitHub to keep up with changes and versions. 
+The site is not deployed to Netlify, as the repo is greated by Noroff and was not available through their website.
 
-React.js
-Bootstrap
+
 Getting Started
+Installing and Running
 
-Installing
+The site can be viewed by using Live Server, when the files has been downloaded from GitHub. However the contents kept in the Wordpress API can only be accessed with the export zip from Local.
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+To see the files the site is made up of, go to the GitHub repo:
 
-Clone the repo:
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-Install the dependencies:
-npm install
-Running
+    https://github.com/Noroff-FEU-Assignments/project-exam-1-AniTei
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
-To run the app, run the following commands:
-
-npm run start
 Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Because of the nature of the project (answer to course assignments), there will be no contributions beyond this initial build. 
+
 
 Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+My LinkedIn page:
+https://www.linkedin.com/in/anine-teigland-a82b1a263/
 
-My Twitter page
+My GitHub page:
+https://github.com/AniTei
 
-My LinkedIn page
-
-License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+Thank you to users who tested my site, and for their feedback.
